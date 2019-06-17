@@ -1,7 +1,3 @@
-;; Place auto-save files in a target folder
-(setq auto-save-file-name-transforms
-  `((".*" "~/.emacs-saves/" t)))
-
 (require 'package)
 (setq package-enable-at-startup nil   ;Info node `(emacs) Package Installation'
       ;; prefer melpa-stable, then the default source gnu, then others
